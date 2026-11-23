@@ -1,3 +1,5 @@
+![Flutter Logo](assets/images/flutter-logo.png)
+
 # RZXXY Flutter Research
 
 ## Project Overview

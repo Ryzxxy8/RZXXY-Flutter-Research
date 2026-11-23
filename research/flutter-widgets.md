@@ -62,24 +62,44 @@ Examples:
 
 ## 7. Widget Tree
 
-A Widget Tree is a hierarchical structure
-that represents how widgets are organized
-in a Flutter user interface.
+A Widget Tree is a hierarchical structure that represents how widgets are organized in a Flutter user interface.
 
-Example:
+### Example
 
+The following diagram shows a simple Flutter Widget Tree:
+
+```text
 MaterialApp
- └── Scaffold
-      └── Column
-           ├── Text
-           ├── Image
-           └── ElevatedButton
+└── Scaffold
+    └── Column
+        ├── Text
+        ├── Image
+        └── ElevatedButton
+```
 
-Key Concepts:
-- Root Widget: The top-level widget.
-- Parent Widget: A widget containing other widgets.
-- Child Widget: A widget contained inside another widget.
-- Widget Tree: The complete widget hierarchy.
+### Key Concepts
+
+* Root Widget: The top-level widget.
+
+* Parent Widget: A widget containing other widgets.
+
+* Child Widget: A widget contained inside another widget.
+
+* Widget Tree: The complete widget hierarchy.
+
+### Explanation
+
+* MaterialApp: The root widget of this example.
+
+* Scaffold: Provides the basic screen structure.
+
+* Column: Arranges its child widgets vertically.
+
+* Text: Displays text.
+
+* Image: Displays an image.
+
+* ElevatedButton: Creates an interactive button.
 
 ## 8. Layout Widgets
 

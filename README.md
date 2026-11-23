@@ -7,6 +7,10 @@
 This project studies Flutter,
 Google's open-source UI development SDK.
 
+## Flutter Architecture Diagram
+
+![Flutter Architecture](assets/images/flutter-architecture.svg)
+
 ## Research Topics
 
 1. Flutter Introduction

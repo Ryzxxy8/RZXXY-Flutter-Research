@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850">
+  <rect width="1100" height="850" fill="#f5f7fb"/>
+  <text x="550" y="65" text-anchor="middle" font-family="Arial" font-size="38" font-weight="bold" fill="#263238">Flutter Architecture</text>
+  <text x="550" y="105" text-anchor="middle" font-family="Arial" font-size="19" fill="#607d8b">Three-Layer Architecture</text>
+
+  <rect x="90" y="145" width="920" height="210" rx="18" fill="#e3f2fd" stroke="#0277bd" stroke-width="4"/>
+  <text x="550" y="195" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#01579b">1. Framework Layer</text>
+  <text x="550" y="230" text-anchor="middle" font-family="Arial" font-size="18" fill="#37474f">Dart Framework</text>
+  <g font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff">
+    <rect x="125" y="265" width="160" height="55" rx="10" fill="#0288d1"/><text x="205" y="300">Widgets</text>
+    <rect x="305" y="265" width="160" height="55" rx="10" fill="#0288d1"/><text x="385" y="300">Rendering</text>
+    <rect x="485" y="265" width="160" height="55" rx="10" fill="#0288d1"/><text x="565" y="300">Animation</text>
+    <rect x="665" y="265" width="160" height="55" rx="10" fill="#0288d1"/><text x="745" y="300">Gestures</text>
+    <rect x="845" y="265" width="140" height="55" rx="10" fill="#0288d1"/><text x="915" y="300">Foundation</text>
+  </g>
+
+  <path d="M550 360 L550 410 M535 395 L550 412 L565 395" fill="none" stroke="#455a64" stroke-width="5"/>
+
+  <rect x="90" y="425" width="920" height="190" rx="18" fill="#e8f5e9" stroke="#388e3c" stroke-width="4"/>
+  <text x="550" y="475" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#1b5e20">2. Engine Layer</text>
+  <g font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff">
+    <rect x="125" y="520" width="165" height="60" rx="10" fill="#43a047"/><text x="207" y="557">Graphics</text>
+    <rect x="305" y="520" width="165" height="60" rx="10" fill="#43a047"/><text x="387" y="557">Text Rendering</text>
+    <rect x="485" y="520" width="165" height="60" rx="10" fill="#43a047"/><text x="567" y="557">Dart Runtime</text>
+    <rect x="665" y="520" width="165" height="60" rx="10" fill="#43a047"/><text x="747" y="557">C++ Core</text>
+    <rect x="845" y="520" width="140" height="60" rx="10" fill="#43a047"/><text x="915" y="557">Accessibility</text>
+  </g>
+
+  <path d="M550 620 L550 670 M535 655 L550 672 L565 655" fill="none" stroke="#455a64" stroke-width="5"/>
+
+  <rect x="90" y="685" width="920" height="125" rx="18" fill="#fff3e0" stroke="#ef6c00" stroke-width="4"/>
+  <text x="550" y="730" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#e65100">3. Embedder Layer</text>
+  <text x="550" y="770" text-anchor="middle" font-family="Arial" font-size="20" fill="#4e342e">Platform Integration</text>
+  <text x="550" y="795" text-anchor="middle" font-family="Arial" font-size="17" fill="#6d4c41">Android  |  iOS  |  Windows  |  macOS  |  Linux</text>
+</svg>

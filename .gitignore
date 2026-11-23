@@ -1,0 +1,23 @@
+# Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.flutter/
+
+# IDE
+.idea/
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.log
+*.tmp
